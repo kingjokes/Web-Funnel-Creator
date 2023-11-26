@@ -1,0 +1,243 @@
+{
+  "nodes": [
+    {
+      "id": "2699442b-3fc7-4ef8-8b1a-24fa5ae3fbf1",
+      "type": "rectangle/square"
+    },
+    { "id": "96358bf0-b480-4694-8a29-5d87622dbe06", "type": "text" },
+    null,
+    null,
+    null,
+    null,
+    { "id": "e87d1f26-3870-462f-9c08-aca5a7465ed6", "type": "button" },
+    { "id": "8a3147ed-cadb-4f87-bbf5-e3fb7d2020d3", "type": "image" }
+  ],
+  "nodeData": [
+    {
+      "type": "rectangle/square",
+      "styles": {
+        "desktop": {
+          "display": true,
+          "opacity": 1,
+          "background": {
+            "color": "#aa0eb3",
+            "type": "Solid Color",
+            "gradient": {
+              "type": "Linear",
+              "color1": "#fc4a1a",
+              "color2": "#f7b733",
+              "angle": 45
+            },
+            "image": {
+              "url": "/assets/images/default-vnode.png",
+              "overlayColor": "transparent",
+              "overlayOpacity": 0.5,
+              "size": "Auto",
+              "position": "Center"
+            }
+          },
+          "dimensions": {
+            "width": { "type": "px", "value": 1498.875 },
+            "height": { "type": "px", "value": 456.796875 }
+          },
+          "alignments": { "vertical": "Start", "horizontal": "Start" },
+          "font": {
+            "family": "Josefin Sans",
+            "size": 36,
+            "alignment": "Left",
+            "color": "",
+            "lineHeight": 0,
+            "letterSpacing": 0,
+            "weight": 300
+          },
+          "linked": {},
+          "position": { "top": 0, "left": 0 },
+          "borderRadius": { "value": 0, "type": "px" },
+          "border": { "type": "None", "color": "#aa0eb3", "size": 1 },
+          "zIndex": 10,
+          "frontValues": { "width": 100, "left": 0, "height": 0 }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "content": "    \n<p><b>What's pumping? Build the world. Or go home!</b></p><p></p>",
+      "styles": {
+        "desktop": {
+          "display": true,
+          "opacity": 1,
+          "background": {
+            "color": "transparent",
+            "type": "Solid Color",
+            "gradient": {
+              "type": "Linear",
+              "color1": "#fc4a1a",
+              "color2": "#f7b733",
+              "angle": 45
+            },
+            "image": {
+              "url": "/assets/images/default-vnode.png",
+              "overlayColor": "transparent",
+              "overlayOpacity": 0.5,
+              "size": "Auto",
+              "position": "Center"
+            }
+          },
+          "dimensions": {
+            "width": { "type": "px", "value": 625 },
+            "height": 71.109375
+          },
+          "alignments": { "vertical": "Start", "horizontal": "Start" },
+          "font": {
+            "family": "Josefin Sans",
+            "size": 36,
+            "alignment": "Center",
+            "color": "rgb(252,252,252)",
+            "lineHeight": "46",
+            "letterSpacing": 0,
+            "weight": 300
+          },
+          "linked": {},
+          "position": { "top": 135.796875, "left": 435 },
+          "borderRadius": { "value": 0, "type": "px" },
+          "border": { "type": "None", "color": "#aa0eb3", "size": 1 },
+          "zIndex": 10,
+          "frontValues": {
+            "width": 41.69794012175799,
+            "left": 29.02176632474356,
+            "height": 0
+          }
+        }
+      }
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+      "type": "button",
+      "content": {
+        "text": "Go Home",
+        "iconPosition": "Left",
+        "link": {
+          "type": "Page",
+          "value": {
+            "funnel": "cooler-deals",
+            "page": {
+              "label": "Welcome Home",
+              "value": "welcome-home",
+              "isIndex": true
+            }
+          }
+        },
+        "icon": "mdi-home-account"
+      },
+      "styles": {
+        "desktop": {
+          "display": true,
+          "opacity": 1,
+          "background": {
+            "color": "#ff1414",
+            "type": "Solid Color",
+            "gradient": {
+              "type": "Linear",
+              "color1": "#fc4a1a",
+              "color2": "#f7b733",
+              "angle": 45
+            },
+            "image": {
+              "url": "/assets/images/default-vnode.png",
+              "overlayColor": "transparent",
+              "overlayOpacity": 0.5,
+              "size": "Auto",
+              "position": "Center"
+            }
+          },
+          "dimensions": {
+            "width": { "type": "px", "value": 244 },
+            "height": { "type": "px", "value": 73 }
+          },
+          "alignments": { "vertical": "Start", "horizontal": "Start" },
+          "font": {
+            "family": "Josefin Sans",
+            "size": "24",
+            "alignment": "Left",
+            "color": "white",
+            "lineHeight": 0,
+            "letterSpacing": 0,
+            "weight": 300
+          },
+          "linked": {},
+          "position": { "top": 272.796875, "left": 623 },
+          "borderRadius": { "value": 0, "type": "px" },
+          "border": { "type": "None", "color": "#aa0eb3", "size": 1 },
+          "zIndex": 10,
+          "frontValues": {
+            "width": 16.278875823534317,
+            "left": 41.56450671336836,
+            "height": 0
+          }
+        }
+      }
+    },
+    {
+      "type": "image",
+      "content": "http://127.0.0.1:5000/assets/get?user=3d3396b7-b23d-4b2a-ad1e-d15fb592584a&file_type=images&filename=main-qimg-603c146ff087431f5c711dbd0a0f8258.jpg",
+      "styles": {
+        "desktop": {
+          "display": true,
+          "opacity": 0.83,
+          "background": {
+            "color": "transparent",
+            "type": "Solid Color",
+            "gradient": {
+              "type": "Linear",
+              "color1": "#fc4a1a",
+              "color2": "#f7b733",
+              "angle": 45
+            },
+            "image": {
+              "url": "/assets/images/default-vnode.png",
+              "overlayColor": "transparent",
+              "overlayOpacity": 0.5,
+              "size": "Auto",
+              "position": "Center"
+            }
+          },
+          "dimensions": {
+            "width": { "type": "px", "value": 636 },
+            "height": { "type": "px", "value": 300 }
+          },
+          "alignments": { "vertical": "Start", "horizontal": "Start" },
+          "font": {
+            "family": "Josefin Sans",
+            "size": 36,
+            "alignment": "Left",
+            "color": "",
+            "lineHeight": 0,
+            "letterSpacing": 0,
+            "weight": 300
+          },
+          "linked": {},
+          "position": { "top": 55.796875, "left": 39 },
+          "borderRadius": { "value": 0, "type": "px" },
+          "border": { "type": "None", "color": "#aa0eb3", "size": 1 },
+          "zIndex": 10,
+          "frontValues": {
+            "width": 42.431823867900924,
+            "left": 2.601951463597698,
+            "height": 0
+          }
+        }
+      }
+    }
+  ],
+  "isDynamic": false,
+  "dynamicConfig": {
+    "modelSource": "Direct",
+    "modelType": "Product",
+    "modelID": "your-product-slug",
+    "attribute": "name"
+  },
+  "height": { "desktop": 542.796875, "tablet": 0, "mobile": 0 }
+}

@@ -1,0 +1,57 @@
+{
+    "Double Deck": {
+        "background": "white",
+        "logo": {
+            "activate": true,
+            "src": "https://themehoster.com/tf/html/tm/emexso/demo/assets/images/logo.png",
+            "width": 169,
+            "height": 25
+        },
+        "navigation": {
+            "activate": false,
+            "links": [],
+            "color": "#2e4749",
+            "fontSize": 36
+        },
+        "social": {
+            "activate": true,
+            "links": [],
+            "color": "#fc4a1a",
+            "background": "transparent",
+            "size": 24,
+            "gap": 16,
+            "border": {
+                "type": "Solid",
+                "color": "#fc4a1a",
+                "size": 1,
+                "radiusValue": 4,
+                "radiusUnit": "px"
+            }
+        },
+        "actionBtn": {
+            "activate": true,
+            "text": "GET STARTED",
+            "background": "#ff5740",
+            "color": "white",
+            "link": ""
+        },
+        "contacts": {
+            "email": {
+            "activate": true,
+            "value": "support@example.com",
+            "text": "Email Us: ",
+            "showIcon": true,
+            "color": "#ff5740",
+            "useDefault": false
+        },
+        "phone": {
+            "activate": true,
+            "value": "+98 54321 67890",
+            "text": "Call Us: ",
+            "showIcon": true,
+            "color": "#ff5740",
+            "useDefault": false
+        }
+        }
+    }
+}
